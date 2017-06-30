@@ -1,0 +1,17 @@
+<navigation-drawer>
+    <DockLayout stretchLastChild="true">
+        <StackLayout dock="bottom" class="dock-btm">
+            <StackLayout orientation="horizontal" >
+                <Button text="Search" [nsRouterLink]="['/search']" pageTransition="slide"></Button>
+            </StackLayout>
+        </StackLayout>
+        <ScrollView>
+            <StackLayout dock="top">
+                <Image #userImage src="" class="profile-img"></Image>
+                <StackLayout>
+                    <Label text="Welcome" class=""></Label>                    
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </DockLayout>
+</navigation-drawer>

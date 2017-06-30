@@ -1,0 +1,10 @@
+*/bin
+*/obj
+*.user-settings.xml
+*.css
+*/node_modules/
+*/platforms/
+*/hooks/
+*.iml
+.idea/
+.vscode
