@@ -7,14 +7,12 @@ import { NativeScriptFormsModule } from 'nativescript-angular/forms';
 import { NativeScriptHttpModule } from 'nativescript-angular/http';
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { NativeScriptRouterModule } from 'nativescript-angular/router';
-import { NativeScriptUISideDrawerModule } from 'nativescript-telerik-ui/sidedrawer/angular';
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { SearchComponent } from "./search/search.component";
 
 @NgModule({
   imports: [
     NativeScriptModule,
-    NativeScriptUISideDrawerModule,
     NativeScriptFormsModule,
     NativeScriptHttpModule,
     NativeScriptRouterModule,
@@ -24,8 +22,7 @@ import { SearchComponent } from "./search/search.component";
   declarations: [
     DashboardComponent,
     SearchComponent,
-    AppComponent,
-    NavigationDrawerComponent,
+    AppComponent
   ],
   bootstrap: [AppComponent]
 })

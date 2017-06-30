@@ -1,7 +1,9 @@
 import { Component, ViewChild, ElementRef } from "@angular/core";
 import { Observable } from "rxjs/Observable";
 import { Image } from "ui/image";
-import { getImage } from "tns-core-modules/http/http";
+import { RouterExtensions } from "nativescript-angular/router";
+import { Page } from "ui/page";
+import { getImage } from "http";
 
 @Component({
   moduleId: module.id,
